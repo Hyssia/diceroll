@@ -16,8 +16,8 @@ const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
 
 // Player Names
-let player1Name = prompt('Player 1s Name');
-let player2Name = prompt('Player 2s Name');
+let player1Name = prompt('Player 1 Name');
+let player2Name = prompt('Player 2 Name');
 const playerNameOne = document.getElementById('name--0');
 const playerNameTwo = document.getElementById('name--1');
 playerNameOne.textContent = player1Name;
